@@ -1,5 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { css } from "@emotion/react/macro";
+import styled from "@emotion/styled/macro";
+
+const styles = css`
+  color: hotpink;
+`;
+const Div = styled.div`
+  border: 1px solid black;
+`;
+console.log(styles, Div);
 
 function App() {
   return (
